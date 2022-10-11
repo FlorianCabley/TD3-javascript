@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet/less" type="text/css" href="style.less">  
+    <meta charset="UTF-8">
+    <title>td 3</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/less" ></script>
+    <h1>TD 3 - Modules et DOM</h1>
+    <main>
+        <ul>
+                <div class="SaisieElement">
+                    <p>Saisie des éléments du tableau: </p>
+                    <p class="element1">Elément 1 
+                        <input type="number" id="number1" name="number">
+                        <button id="ajout">+</button>
+                    </p>
+                    <p class="rechercher">Elément à rechercher : 
+                        <input type="text" id="numberSearch" name="numberSearch">
+                    </p>
+                    <button id="valider">Produire les résultats</button>
+                </div>
+            <div class="resultat">
+                <p>Somme des éléments : <a id="somme"></p>
+                <p>Nombre de pairs : <a id="nbPaire"></p>
+                <p>Plus grand élément pair : <a id="PlusGrandPair"></p>
+                <p>Position de l'élément dans la table : <a id="position"></p>
+            </div>
+        </ul>
+    </main>
+    <script src="td3_modules14.js" type="module"></script>
+</body>
+</html>
